@@ -103,7 +103,8 @@ nav.scroll a:hover{border-color:var(--crimson);color:#fff}
 .spec .pend{position:relative;font-size:12px;font-weight:600;color:#6B7280;display:flex;align-items:center;gap:6px}
 .spec .pend i{width:8px;height:8px;border-radius:50%;background:var(--champ)}
 .top5{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(200px,1fr);gap:14px;margin-top:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:thin}
-.tile{scroll-snap-align:start;background:#fff;border-radius:var(--r);overflow:hidden;border:0;padding:0;text-align:left;cursor:pointer;color:var(--ink);font:inherit;transition:transform .2s,box-shadow .2s}
+.tile{scroll-snap-align:start;background:#fff;border-radius:var(--r);overflow:hidden;border:0;padding:0;text-align:left;cursor:pointer;color:var(--ink);font:inherit;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.tile .spec{flex:none;width:100%}.tile .ti{flex:1;display:flex;flex-direction:column;width:100%}.tile .tp{margin-top:auto;padding-top:8px}
 .tile:hover{transform:translateY(-2px);box-shadow:0 18px 34px rgba(0,0,0,.35)}
 .tile .ti{padding:12px 16px 16px;border-top:1px solid var(--line)}
 .tile b{display:block;font:700 15px/1.3 Montserrat,sans-serif}.tile small{color:var(--soft);font-size:13px}
@@ -135,7 +136,7 @@ h3 .open{display:inline;width:auto}
 /* academy */
 .acad-hero{position:relative;isolation:isolate;overflow:hidden;border-top:3px solid var(--crimson)}
 .acad-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;z-index:-2}
-.acad-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(11,16,27,.96) 30%,rgba(11,16,27,.55) 70%,rgba(11,16,27,.75)),linear-gradient(0deg,var(--navy),rgba(11,16,27,0) 40%)}
+.acad-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 82% 28%,rgba(36,75,160,.42),rgba(36,75,160,0) 45%),radial-gradient(circle at 70% 85%,rgba(210,36,54,.28),rgba(210,36,54,0) 40%),linear-gradient(90deg,rgba(11,16,27,.96) 30%,rgba(11,16,27,.55) 70%,rgba(11,16,27,.75)),linear-gradient(0deg,var(--navy),rgba(11,16,27,0) 40%)}
 .acad-hero .wrap{padding-top:clamp(56px,8vw,110px);padding-bottom:clamp(40px,5vw,70px)}
 .acad-logo{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
 .acad-logo b{font:400 clamp(60px,8vw,104px)/.9 "Bebas Neue",Impact,sans-serif;transform:skewX(-12deg);display:inline-block}
@@ -214,7 +215,8 @@ footer{background:#070B13;color:#A7AFC0;padding:52px 0 30px;border-top:1px solid
 @media(max-width:1100px){nav.scroll{gap:18px;font-size:13px}.util .wrap{grid-template-columns:repeat(2,auto)}}
 @media(max-width:960px){.cats{grid-template-columns:repeat(3,minmax(0,1fr))}.tiers,.how{grid-template-columns:repeat(2,minmax(0,1fr))}.vwrap{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:760px){
- .hd{flex-wrap:wrap;min-height:0;padding-top:10px;gap:8px 16px}nav.scroll{order:3;flex-basis:100%;justify-content:flex-start;gap:20px}.icons{margin-left:auto}
+ html{scroll-padding-top:120px}.logo b{font-size:34px}.logo small{font-size:7px;letter-spacing:3.6px}nav.scroll a{padding:8px 0}
+ .hd{flex-wrap:wrap;min-height:0;padding-top:8px;gap:2px 16px}nav.scroll{order:3;flex-basis:100%;justify-content:flex-start;gap:20px}.icons{margin-left:auto}
  .hero .ph{inset:0}.hero::before{background:linear-gradient(0deg,var(--navy) 18%,rgba(11,16,27,.72) 55%,rgba(11,16,27,.25))}
  .hero .wrap{min-height:560px;justify-content:flex-end;padding-bottom:40px}.hero h1{font-size:clamp(54px,17vw,84px)}
  .two,.bgrid{grid-template-columns:minmax(0,1fr)}
