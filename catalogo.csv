@@ -1,0 +1,21 @@
+sku_ref,id,marca,modelo,nombre,categoria,nivel,modo,tallas,mano_RHT_LHT,precio_ref_EEUU_usd,fuente,precio_publico_cents,nota,verificado_el
+WBG085,wil-a500-11,Wilson,A500,Wilson A500 11″,guantes,Juvenil,stock,11″,sí,84.95,https://www.wilson.com/en-us/products/2027-a500-11-infield-youth-baseball-glove-wbg085,,,2026-11-25
+Por verificar,wil-a800-115,Wilson,A800,"Wilson A800 11,5″",guantes,Juvenil,stock,"11,5″",sí,,,,"No figura en wilson.com actual; confirmar con distribuidor o sustituir por A700 11,5"" (USD 99,95 en wilson.com)",2026-11-25
+WBW102563,wil-a1000-1786,Wilson,A1000,"Wilson A1000 1786 11,5″",guantes,Adulto,encargo,"11,5″",sí,199.95,https://www.wilson.com/en-us/products/2026-a1000-1786-115-infield-baseball-glove-wbw102563,,,2026-11-25
+WBW102637,wil-a2000-1786,Wilson,A2000,"Wilson A2000 1786 11,5″",guantes,Adulto,encargo,"11,5″",sí,329.95,https://www.wilson.com/products/2026-a2000-classics-series-1786-115-infield-baseball-glove-wbw102637,,Precio regular varía por edición (Classics/Spring),2026-11-25
+SPL150 (según modelo de jugador),raw-spl-115,Rawlings,SPL,"Rawlings Select Pro Lite 11,5″",guantes,Juvenil,stock,"11,5″",sí,79.95,https://www.baseballmonkey.com/rawlings-youth-baseball-glove-select-pro-lite-bo-bichette-26.html,,,2026-11-25
+R93029-6BP,raw-r9-1275,Rawlings,R9,"Rawlings R9 12,75″",guantes,Juvenil,encargo,"12,75″",sí,139.99,https://sportsunlimitedinc.com/rawlings-r9-series-12-75-baseball-glove-rht.html,,,2026-11-25
+WBW102568,wil-a1000-cm33,Wilson,CM33,Wilson A1000 CM33 33″,guantes,Juvenil,encargo,33″,sí,199.95,https://www.wilson.com/en-us/products/2026-a1000-cm33-33-baseball-catchers-mitt-wbw102568,,,2026-11-25
+PFBDCT,raw-pfbdct,Rawlings,PFBDCT,"Rawlings Player Preferred 12,5″ primera base",guantes,Adulto,stock,"12,5″",sí,84.99,https://www.scheels.com/p/rawlings-player-preferred-12.5-first-base-mitt/83321-PFBDCT,,,2026-11-25
+CFXPRO,fra-cfx-pro,Franklin,CFX PRO,Franklin CFX Pro,guantines,Adulto,stock,S|M|L|XL|2XL,no,44.99,https://franklinsports.com/cfx-pro-batting-glove,,,2026-11-25
+2nd-Skinz Youth,fra-2nd-skinz,Franklin,2ND SKINZ,Franklin 2nd Skinz juvenil,guantines,Juvenil,stock,YXS|YS|YM|YL,no,19.99,https://www.academy.com/p/franklin-kids-2nd-skinz-batting-gloves-119088231,,"Academy lo lista a USD 24,99",2026-11-25
+WB57537,evo-slide-20,EvoShield,SLIDE 2.0,EvoShield Sliding Mitt 2.0,accesorios,Adulto,stock,Juvenil|Adulto,no,49.95,https://www.baseballmonkey.com/evoshied-baseball-sliding-mitt-2-adult.html,,"Edición X-SRZ ~USD 69,99",2026-11-25
+DSPUBB,liz-dsp-ultra,Lizard Skins,DSP ULTRA,Lizard Skins DSP Ultra,accesorios,Adulto,stock,"0,5 mm|1,1 mm|1,8 mm",no,14.99,https://www.sportsbasement.com/products/dsp-ultra-bat-grip-1-1mm,,,2026-11-25
+DLB3 no verificado · alternativa OLB3,raw-practice-dz,Rawlings,PRÁCTICA,Rawlings pelotas de práctica (docena),pelotas,Juvenil,stock,Docena,no,,,,"""DLB3"" no encontrado; candidatos OLB3 (práctica) o ROLB1 (competición, ~USD 74,99/docena)",2026-11-25
+A1010 HS1,wil-a1010-dz,Wilson,A1010,Wilson A1010 (docena),pelotas,Adulto,stock,Docena,no,119.99,https://www.bsnsports.com/p/wilson-a1010-high-school-sst/,,,2026-11-25
+3027447,ua-leadoff-rm3,Under Armour,LEADOFF,Under Armour Leadoff Low RM 3.0,calzado,Adulto,encargo,Jr 4|Jr 5|Jr 6|US 7|US 8|US 9|US 10|US 11|US 12,no,40.00,https://www.underarmour.com/en-us/p/baseball/ua_leadoff_low_rm_3.0/3027447.html,,,2026-11-25
+1374374,ua-utility-pant,Under Armour,UTILITY,Under Armour Utility pantalón,ropa,Adulto,encargo,Niño S|Niño M|Niño L|S|M|L|XL,no,30.00,https://www.underarmour.com/en-us/p/men/mens_ua_utility_baseball_pants/1374374.html,,,2026-11-25
+8014602,eas-e100g,Easton,E100G,Easton E100G bolso de equipo,accesorios,Adulto,encargo,Único,no,39.95,https://easton.rawlings.com/product/8014602.html,,,2026-11-25
+WB600120 / WB600130,evo-sleeve,EvoShield,SLEEVE,EvoShield manga de compresión,accesorios,Adulto,stock,Juvenil|Adulto,no,24.99,https://www.baseballmonkey.com/evoshield-protective-wb600120-adult-compression-arm-sleeve.html,,,2026-11-25
+GLK,raw-glk,Rawlings,GLK,Rawlings kit de cordones para guante,accesorios,Adulto,stock,Negro|Tan,no,9.99,https://www.rawlings.com/product/GLK-T.html,,,2026-11-25
+EB,raw-eyeblack,Rawlings,EYE BLACK,Rawlings Eye Black,accesorios,Adulto,stock,Barra,no,4.99,https://www.sportchek.ca/en/pdp/rawlings-eye-black-baseball-stick-80367052f.html,,,2026-11-25
